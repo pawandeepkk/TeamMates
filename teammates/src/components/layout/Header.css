@@ -1,0 +1,15 @@
+header {
+  background: #a2d2ff;
+  color: #fef9ef;
+  font-size: 30px;
+  display: flex;
+}
+
+header div.login {
+  flex: 1;
+  margin-right: 0.5rem;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

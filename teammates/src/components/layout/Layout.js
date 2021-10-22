@@ -1,3 +1,6 @@
+import Header from './Header';
+
+
 function Layout(props) {
     //properties ---------------------
     //hooks ---------------------
@@ -5,9 +8,12 @@ function Layout(props) {
     //methods ---------------------
     //view ---------------------
     return (
-        <div>
-            {props.children}
-        </div>
+        <>
+            <Header />
+            <div>
+                {props.children}
+            </div>
+        </>
     )
 }
 
