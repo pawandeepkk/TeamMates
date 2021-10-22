@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  background: #a2d2ff;
+  overflow: hidden;
+}
+
+nav div.navItem {
+  float: left;
+  color: #2c2891;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav div.navItem:hover {
+  background-color: #ff865e;
+  color: #fef9ef;
+}
+
+nav div.navItem a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+nav div.navItem a.navSelected {
+  background-color: #ff865e;
+}
