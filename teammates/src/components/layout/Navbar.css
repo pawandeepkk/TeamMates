@@ -18,6 +18,8 @@ nav div.navItem:hover {
   color: #fef9ef;
 }
 
+/*unsure abt these two divs below*/
+
 nav div.navItem a {
   color: inherit;
   text-decoration: inherit;

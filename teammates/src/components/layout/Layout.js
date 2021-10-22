@@ -1,5 +1,6 @@
 import Header from './Header';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 function Layout(props) {
     //properties ---------------------
@@ -14,6 +15,7 @@ function Layout(props) {
             <div>
                 {props.children}
             </div>
+            <Footer />
         </>
     )
 }
