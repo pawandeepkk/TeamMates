@@ -13,8 +13,10 @@ function Layout(props) {
         <>
             <Header />
             <Navbar />
-            <div>
-                {props.children}
+            <div className='underlay'>
+                <main>
+                    {props.children}
+                </main>
             </div>
             <Footer />
         </>

@@ -4,3 +4,17 @@ div#root {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
 }
+
+div#root div.underlay {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+div#root div.underlay > main {
+  padding: 30px;
+  background: whitesmoke;
+  width: 100%;
+  max-width: 1000px;
+}
