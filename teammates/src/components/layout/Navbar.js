@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -10,15 +11,15 @@ function Navbar() {
 
         <nav>
             <div className='navItem'>
-                <a>Home</a>
+                <NavLink to={'/'} exact activeClassName='navSelected'>Home</NavLink>
             </div>
 
             <div className='navItem'>
-                <a>Sign In</a>
+                <NavLink to={'/signin'} activeClassName='navSelected'>Sign In</NavLink>
             </div>
 
             <div className='navItem'>
-                <a>Contact</a>
+            <NavLink to={'/contact'} activeClassName='navSelected'>Contact</NavLink>
             </div>
         </nav>
     )

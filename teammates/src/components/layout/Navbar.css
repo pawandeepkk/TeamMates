@@ -26,5 +26,5 @@ nav div.navItem a {
 }
 
 nav div.navItem a.navSelected {
-  background-color: #ff865e;
+  color: white;
 }
