@@ -9,7 +9,7 @@ function Header() {
     return (
 
         <header>
-            <a>
+            <a className='teammates'>
              <h1>TeamMates</h1>
             </a>
             <div className='login'>

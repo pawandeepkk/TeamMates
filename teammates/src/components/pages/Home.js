@@ -6,7 +6,7 @@ function Home() {
     //view ---------------------
     return (
         <section>
-            <h1>Home</h1>
+            <h1>My Group Assignments</h1>
         </section>
     )
 }

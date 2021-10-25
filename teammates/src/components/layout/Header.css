@@ -1,8 +1,12 @@
 header {
   background: #a2d2ff;
-  color: #fef9ef;
+  color: #ff865e;
   font-size: 30px;
   display: flex;
+}
+
+a.teammates {
+  color: white;
 }
 
 header div.login {
