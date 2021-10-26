@@ -1,4 +1,5 @@
 import Card from '../generic/Card';
+import Assignment from './Assignment';
 
 function Home() {
     //properties ---------------------
