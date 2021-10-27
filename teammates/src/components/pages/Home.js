@@ -2,6 +2,21 @@ import Card from '../generic/Card';
 import Assignment from './Assignment';
 
 function Home() {
+    //dummy data ------------------
+    const UpcomingAssignments = [
+        {
+            title: "Software Development Practice",
+            code: "CI6125",
+            dueDate: "04/11/2021",
+            description: "lorem ipsum",
+        },
+        {
+            title: "Mobile Application Development",
+            code: "CI6330",
+            dueDate: "10/01/2022",
+            description: "lorem ipsum"
+        },
+    ];
     //properties ---------------------
     //hooks ---------------------
     //context ---------------------
@@ -10,31 +25,11 @@ function Home() {
     return (
         <section>
             <h1>My Group Assignments</h1>
-            <Card title='Assignment 1'>
-                <h3>Assignment title</h3>
-                <p>Ipsem Loreum.....</p>
+            <Card
+            title="My Upcoming Group Assignments">
+
             </Card>
 
-            <Card title='Assignment 2'>
-                <Card className='subcard' title='Part 1'>
-                    <h3>Assignment title</h3>
-                    <p>Ipsem Loreum.....</p>
-                </Card>
-                <Card title='Part 2'>
-                    <h3>Assignment title</h3>
-                    <p>Ipsem Loreum.....</p>
-                </Card>
-            </Card>
-
-            <Card title='Assignment 3'>
-                <Assignment 
-                    title='Assignment 3'
-                    dueDate='1/1/22'
-                    description='https://canvas.com'
-                /> 
-
-                
-            </Card>
         </section>
 
         
