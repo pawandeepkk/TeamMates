@@ -1,4 +1,4 @@
-function Assignment({title,dueDate,description}) {
+function Assignment({title,code,dueDate,description}) {
     //properties ---------------------
     //hooks ---------------------
     //context ---------------------
