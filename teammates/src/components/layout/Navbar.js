@@ -21,6 +21,10 @@ function Navbar() {
             <div className='navItem'>
             <NavLink to={'/contact'} activeClassName='navSelected'>Contact</NavLink>
             </div>
+
+            <div className='navItem'>
+            <NavLink to={'/myprofile'} activeClassName='navSelected'>My Profile</NavLink>
+            </div>
         </nav>
     )
 }
